@@ -3,7 +3,7 @@ import { Router } from './router';
 import { Context, ContextProvider } from './context/Context';
 import io from 'socket.io-client';
 
-const socket = io("http://localhost:3001");
+const socket = io("https://chatfrontend-eta.vercel.app/");
 
 function App() {
 
